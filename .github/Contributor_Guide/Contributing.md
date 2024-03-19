@@ -6,7 +6,7 @@ Before contributing, please make sure to read the [Code of Conduct](../../CODE_O
 
 ## New to Code-a-licious?
 
-If you are new to Code-a-licious, please take a look at the [documentation](./Project_Tour.md). It is a great place to start.
+If you are new to Code-a-licious, please take a look at the [documentation](./Project_Tour.md). It is a great place to start. 
 
 ## New Contributor Guide
 
