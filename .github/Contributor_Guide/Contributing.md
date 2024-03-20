@@ -1,10 +1,10 @@
-# Contribute to Code-a-licious
+# Contribute to code-a-licious
 
-Thank you for taking the time to contribute to Code-a-licious! We really appreciate it. 
+Thank you for taking the time to contribute to code-a-licious! We really appreciate it. 
 
 Before contributing, please make sure to read the [Code of Conduct](../../CODE_OF_CONDUCT.md). We expect you to follow it in all your interactions with the project.
 
-## New to Code-a-licious?
+## New to code-a-licious?
 
 If you are new to Code-a-licious, please take a look at the [documentation](./Project_Tour.md). It is a great place to start. 
 
