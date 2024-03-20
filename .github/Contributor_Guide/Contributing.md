@@ -26,7 +26,7 @@ If you want to suggest an enhancement to <Project_Name>, please [submit an issue
 
 ### Pull Requests
 
-If you want to contribute to Code-a-licious, submit a pull request.
+If you want to contribute to code-a-licious, submit a pull request.
 
 - url: `https://github.com/OPCODE-Open-Spring-Fest/code-a-licious/compare/branch...YOURGITHUBUSERNAME:<project_Name>:BRANCH?quick_pull=1&template=pr.md`
   
