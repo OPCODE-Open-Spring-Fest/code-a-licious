@@ -32,6 +32,29 @@ If you want to contribute to code-a-licious, submit a pull request.
   
 ### Requirements
 
+- [Node.js](https://nodejs.org/)
 
 ### Setup
 
+To set up **code-a-licious** on your local machine, follow these steps:
+
+### Installation Steps
+
+1. Fork the repository:
+   - Click the "Fork" button at the top right corner of this repository's page on GitHub. This will create a copy of the repository in your GitHub account.
+
+2. Clone the forked repository:
+
+```bash
+git clone https://github.com/<yourusername>/code-a-licious.git
+```
+
+3. Navigate to the project directory:
+```bash
+cd code-a-licious
+```
+
+4. Install Node.js dependencies:
+```bash
+npm i
+```
