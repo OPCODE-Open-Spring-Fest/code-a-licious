@@ -16,3 +16,29 @@ Welcome to Code-a-licious, the place where the best solutions to challenging cod
      Encourage community participation by allowing participants to submit their solutions and discuss approaches with others.
 7.   **Documentation**:
      Maintain clear documentation outlining the repository's purpose, contribution guidelines, and any other relevant information for participants.
+
+
+
+## Setup
+
+To set up *Code-a-licious* on your local machine, follow these steps:
+
+### Installation Steps
+
+1. Fork the repository:
+   - Click the "Fork" button at the top right corner of this repository's page on GitHub. This will create a copy of the repository in your GitHub account.
+
+2. Clone the forked repository:
+
+bash
+git clone https://github.com/<yourusername>/Code-a-licious.git
+
+
+3. Navigate to the project directory:
+bash
+cd codecrack
+
+
+4. Install Node.js dependencies:
+bash
+npm i
