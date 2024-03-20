@@ -19,9 +19,9 @@ Welcome to Code-a-licious, the place where the best solutions to challenging cod
 
 
 
-## Setup
+### Setup
 
-To set up *Code-a-licious* on your local machine, follow these steps:
+To set up **code-a-licious** on your local machine, follow these steps:
 
 ### Installation Steps
 
@@ -30,15 +30,16 @@ To set up *Code-a-licious* on your local machine, follow these steps:
 
 2. Clone the forked repository:
 
-bash
-git clone https://github.com/<yourusername>/Code-a-licious.git
-
+```bash
+git clone https://github.com/<yourusername>/code-a-licious.git
+```
 
 3. Navigate to the project directory:
-bash
-cd codecrack
-
+```bash
+cd code-a-licious
+```
 
 4. Install Node.js dependencies:
-bash
+```bash
 npm i
+```
