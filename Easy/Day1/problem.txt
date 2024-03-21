@@ -1,1 +1,11 @@
+PROBLEM STATEMENT
+In a mysterious forest, there exists a species of creatures with peculiar characteristics. Each of these creatures is known to have a certain number of legs, denoted by S, and possesses exactly one head.
+Now, the forest researchers have discovered an unusual phenomenon. They found a group of K of these creatures gathering together. The researchers are fascinated and want to understand the total number of legs, denoted by N, for this group of creatures.
+However, there's a catch: The researchers can only observe the total number of creatures in the group, denoted by A, and the total number of legs present among all the creatures in the group, denoted by B.
+The challenge is to determine the total number of legs, N, for this group of creatures based on the limited information available.
 
+INPUT 
+Contain 4 integer S,K,A,B. Every integer is less or equals to 1000.
+
+OUTPUT
+The number of legs of a creature. If input data is contradiction, then output - 1, if there is more than one answer, output any one of them.
