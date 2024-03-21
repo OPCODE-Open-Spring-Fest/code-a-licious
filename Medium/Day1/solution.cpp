@@ -1,7 +1,7 @@
 #include<iostrem>
 using namespace std;
-int main(){
-
+int main()
+{
   // your code here
 
   return 0;
