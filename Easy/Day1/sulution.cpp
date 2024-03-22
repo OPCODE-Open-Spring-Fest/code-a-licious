@@ -1,4 +1,4 @@
-// Write your solution here\
+// Write your solution here
 #include<bits/stdc++.h>
 int function3(int a ){
     int count = 0;
