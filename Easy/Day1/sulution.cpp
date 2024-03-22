@@ -1,5 +1,6 @@
 // Write your solution here
 #include<bits/stdc++.h>
+using namespace std;
 int function3(int a ){
     int count = 0;
     for(int x = 1 ;x<=sqrt(a) ; x++){
@@ -19,7 +20,6 @@ int function2(int p){
         h++;
      }
 }
-using namespace std;
 int main(){
     int p ;
     cin>>p;
