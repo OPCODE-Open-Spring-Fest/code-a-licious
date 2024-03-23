@@ -5,7 +5,7 @@ Your task is to determine the maximum size of the series that Mehak can create w
 With your assistance, Mehak hopes to make her friend's birthday celebration truly unforgettable. 
 
 Input :
-The first line contains integers n, w, h (1 ≤n ≤ 5000, 1 ≤w, h ≤ 10^6) — amount of envelopes Peter has, the card width and height
+The first line contains integers n, w, h (1 ≤n ≤ 5000, 1 ≤w, h ≤ 10^6) — amount of envelopes Mehak has, the card width and height
 respectively. Then there follow n lines, each of them contains two integer numbers w[i] and h[i] — width and height of the i-th envelope
 (1≤W[i],h[i] ≤ 10^6).
 
