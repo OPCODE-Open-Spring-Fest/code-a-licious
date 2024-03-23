@@ -10,3 +10,6 @@ Each of the next n lines contains three integers a[i], b[i] and x[i] (1 ≤ a[i]
 
 Output data
 Print the maximum value which you can achieve.
+
+Time Limit per test case: 2 sec
+Memory Limit per test case: 256 megabytes
