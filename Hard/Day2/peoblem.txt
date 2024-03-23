@@ -1,1 +1,12 @@
+You have n rectangles defined by their vertices:(0,0),(a[i],0), (a[i],b[i]), and (0,b[i]), along with a corresponding number x[i] for each rectangle. Your task is to 
+select a subset of these rectangles to maximize the area of their union, while subtracting the sum of their respective x[i] values.
 
+Note: There are no nested rectangles in the given set.
+
+
+Input data
+The first line contains one integer n (1 ≤ n ≤ 10^6) - the number of rectangles.
+Each of the next n lines contains three integers a[i], b[i] and x[i] (1 ≤ a[i], b[i] ≤ 10^9, 0 ≤ x[i] ≤ a[i] * b[i]).
+
+Output data
+Print the maximum value which you can achieve.
