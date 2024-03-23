@@ -1,0 +1,20 @@
+PROBLEM STATEMENT :
+Mehak is planning a surprise for her friend's birthday in IIIT BHAGALPUR. She wants to make it more exciting by creating a unique series of gift boxes to go along with the birthday card. Each succeeding box in the series must be larger than the previous one.
+To add to the thrill, Mehak wants to ensure that the series can hold the birthday card. Specifically, the card should fit into the series if its dimensions are smaller than the smallest box in the series. With a vast assortment of gift boxes and limited time, Mehak needs your help to create the longest possible series from the boxes she has.
+Your task is to determine the maximum size of the series that Mehak can create while ensuring that the birthday card can fit into it. Remember, rotating the card or any of the boxes is not allowed.
+With your assistance, Mehak hopes to make her friend's birthday celebration truly unforgettable. 
+
+Input :
+The first line contains integers n, w, h (1 ≤n ≤ 5000, 1 ≤w, h ≤ 10^6) — amount of envelopes Mehak has, the card width and height
+respectively. Then there follow n lines, each of them contains two integer numbers w[i] and h[i] — width and height of the i-th envelope
+(1≤W[i],h[i] ≤ 10^6).
+
+Output :
+In the first line print the maximum chain size. In the second line print the numbers of the envelopes (separated by space), forming the
+required chain, starting with the number of the smallest envelope. Remember, please, that the card should fit into the smallest envelope. If
+the chain of maximum size is not unique, print any of the answers.
+If the card does not fit into any of the envelopes, print number 0 in the single line.
+
+Time limit per test: 1 second
+Memory limit per test: 64 megabytes
+
