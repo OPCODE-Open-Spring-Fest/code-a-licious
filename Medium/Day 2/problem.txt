@@ -15,3 +15,6 @@ required chain, starting with the number of the smallest envelope. Remember, ple
 the chain of maximum size is not unique, print any of the answers.
 If the card does not fit into any of the envelopes, print number 0 in the single line.
 
+Time limit per test: 1 second
+Memory limit per test: 64 megabytes
+
