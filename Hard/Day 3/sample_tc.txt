@@ -1,1 +1,6 @@
+Input 
+Lorem, ipsum, dolor, sit, amet ,consectetur, adipisicing 
+16
 
+output
+Lorem ipsum, dolor sit amet, consectetur, adipisicing
