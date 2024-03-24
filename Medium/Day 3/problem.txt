@@ -1,0 +1,15 @@
+Joey, newly acquainted with the stock market, has chosen a preferred stock and engaged in trading it for a consecutive span of n days. Denoting the profit gained by 
+Joey on the i-th day as ai, where ai<0 signifies a loss, Joey aims to determine the maximum profit he could have attained if he abstained from trading for exactly one
+day.
+
+Input:
+The first line contains a single integer t (1 ≤ t ≤ 1000) — the number of test cases.
+The first line of each test case contains an integer n (1 ≤ n ≤ 10^5).
+The next line denotes n integers ai (-100 <= ai <=100), denoting the profit earned by Joey on the i-th day.
+
+Output:
+For each test case, print on a new line the maximum amount of profit he would have earned, if he skipped trading for exactly one day.
+
+
+Time limit 1 second
+Memory limit 128 MiB
