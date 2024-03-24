@@ -7,6 +7,11 @@ Your task is to organize the clothes in such a way that each shelf contains exac
 You should arrange the clothes using a discrete strategy, grouping as many items as possible on each shelf. If necessary, insert extra spaces to ensure each shelf is fully occupied. These additional spaces should be evenly distributed between the clothing items as much as possible. In cases where the number of spaces cannot be evenly divided among items, allocate the extra spaces to the leftmost items.
 For the final shelf of clothes, it should be left-aligned with no additional spaces inserted between items.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Input
+First line containe vector of string.
+Second   line contain the maximum width.
+
+
 Constraints:
 • 1 <= string. length <= 300
 • 1 <= string [i].length <= 20
