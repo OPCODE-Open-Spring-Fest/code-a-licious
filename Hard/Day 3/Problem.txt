@@ -1,0 +1,12 @@
+PROBLEM STATEMENT
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Certainly! Here's the scenario with clothes in a cupboard:
+
+Imagine you have a cupboard filled with various pieces of clothing, each represented by a string. Additionally, you have a maximum width limit, which represents the available space on each shelf of the cupboard.
+Your task is to organize the clothes in such a way that each shelf contains exactly the maximum width of clothing items. The goal is to fully utilize the available space on each shelf while ensuring that the clothes are neatly arranged and concealed.
+You should arrange the clothes using a discrete strategy, grouping as many items as possible on each shelf. If necessary, insert extra spaces to ensure each shelf is fully occupied. These additional spaces should be evenly distributed between the clothing items as much as possible. In cases where the number of spaces cannot be evenly divided among items, allocate the extra spaces to the leftmost items.
+For the final shelf of clothes, it should be left-aligned with no additional spaces inserted between items.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input
+
