@@ -1,7 +1,10 @@
 Find the smallest positive integer n that can be expressed as the product n = x * y in k distinct ways, where the order of the factors (i.e., x * y or y * x) is considered the same.
 
 Input data
-The first and only line contains an integer k.
+The first and only line contains an integer k(1≤k≤50).
 
 Output data
 Print one integer — the value of n
+
+Time limit 1 second
+Memory limit 128 MiB
