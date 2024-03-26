@@ -4,7 +4,7 @@ One bank recently introduced a system which merges a company's several accounts 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Input
-In the first line 2 integers given : Number of acconts N and the fee percentage f.
+In the first line 2 integers given : Number of accounts N and the fee percentage f.
 The second line contains N integers : the expense of each business's accounts.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
