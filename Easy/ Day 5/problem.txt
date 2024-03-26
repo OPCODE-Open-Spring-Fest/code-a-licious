@@ -1,0 +1,14 @@
+Problem Statment
+
+Assuming that the order of multiplication (a * b and b * a) produces the same result, find the smallest positive number, n, that can be uniquely factored into two positive integers, a and b, in exactly k (where 1 ≤ k < 50) separate ways.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Input
+A single integer k.
+
+Output 
+Print a integer satisfying the given condition.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Time limit 1 second
+ Memory limit 128 MiB
