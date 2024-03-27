@@ -14,24 +14,24 @@ int main() {
     cin>>n>>f;
     // Input the maximum processing fee limit for each individual account
     // priority queue is used to store the processing fee of each account in ascending order and get the minimum fee account in less time 
-    priority_queue<double, vector<double>, greater<double>> minHeap;
+    priority_queue<double, vector<double>, greater<double>> min;
     for (i=0;i<n;i++) {
         double fee;
         cin>>fee;
-        minHeap.push(fee);
+        min.push(fee);
     }
     // Merge accounts until only one remains
-    while(minHeap.size()>1){
-        double fe1 = minHeap.top();
-        minHeap.pop();
+    while(min.size()>1){
+        double fe1 = min.top();
+        min.pop();
         fe1-=calculateFee(fe1, f);
-        double fe2=minHeap.top();
-        minHeap.pop();
+        double fe2=min.top();
+        min.pop();
         fe2-=calculateFee(fe2, f);
         double mergedFee=fe1+fe2;
-        minHeap.push(mergedFee);
+        min.push(mergedFee);
     }
     // Output the maximum amount that can remain in the account
-    cout<<minHeap.top()<<endl;
+    cout<<min.top()<<endl;
     return 0;
 }
