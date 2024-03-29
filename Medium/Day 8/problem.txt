@@ -1,0 +1,18 @@
+Problem Statment
+
+A fly lands on the floor of a rectangle chamber that has the following dimensions: length l, width b, and height h. It then goes to sleep.A spider begins to follow the shortest path to reach the fly from its place on one of the walls, the floor, or the ceiling. How far will the spider go in total to get to the fly?
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Input
+The sizes of rooms l, b, and h are listed in the first line. The fly's coordinates on the floor are X1, Y1 (0 ≤X1≤ l, 0 ≤Y1 ≤b) in the second line. The spider's coordinates, X2, Y2, and Z2, are shown in the third line (0≤ X2≤ l, 0 ≤Y2≤ b, 0 ≤Z2≤ h). Every input value is a nonnegative integer that is less than or equal to 500.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output
+The single number, two digits after the decimal point, is the distance the spider will go.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time limit 1 seconds
+Memory limit 64 megabytes
