@@ -1,0 +1,23 @@
+Problem Statment
+
+N wooden logs with lengths L[1], L[2],..., L[N] are handed to you. It is your responsibility to build a raft out of E equal-length beams. Find the longest raft that can be built, K, as long as possible.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input
+
+The first line contains N & E.
+The second line contains N values.
+
+All values are natural, do not exceed 1000.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output
+The value of K.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Time limit - 1 sec 
+Memory limit - 64 megabytes
