@@ -1,0 +1,17 @@
+Problem Statment
+
+Think of a tree graph in which every node can have a token attached to it. One token can be moved to any neighbouring node, and two tokens can be withdrawn from any node that has two or more tokens. This process can be carried out more than once. Finding the maximum number of tokens (modulo M) that can be arranged on the tree nodes is the aim, but it also has to make sure that there is at least one node where a token cannot be moved using the specified procedures.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Input
+The first line of input data contains a single integer t (1≤t≤100) —number of test cases in the test.
+
+Each test case's first line has two numbers: M (2≤ M^31-1≤2) and N (2≤ N ≤30000), which represent the number of nodes in the tree. Next N-1 lines, each of which has two neighbouring node numbers (numbers range from 1 to N) spaced apart.
+
+
+Output 
+Print a desired number for every test case.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time limit: 2sec
+Memory limit: 64 megabte
