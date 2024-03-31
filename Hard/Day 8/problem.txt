@@ -1,0 +1,20 @@
+You have an array a1, a2,. . . , an.
+You are given q queries - Each query contains 2 integers k and x.
+Update the value at a[k] by x, your objective is to consistently determine and report the maximum sum of a contiguous subarray within the array.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+The first line of input contains two integers n and q(1 ≤ n, q ≤ 200000): the size of the array and the number of queries. The array is indexed 1,2,. . . ,n.
+The second line of each test case consists of n integers ai(-10^9 ≤ ai ≤ 10^9) — the array a.
+The next q lines of each test case consists of 2 integers k(1 ≤ k ≤ n) and x(-10^9 ≤ x ≤ 10^9) — the queries. The value at position k becomes x.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+After each query, print the maximum subarray sum. Empty subarrays are allowed (with sum 0).
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time limit: 1 sec
+Memory limit: 512 MB
