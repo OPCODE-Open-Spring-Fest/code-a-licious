@@ -1,0 +1,22 @@
+You have an integer array a1, a2,. . . ,an. Answer q queries of the following form:
+--> u, v, x, y, k : Count the number of indices i such that u <= i <= v, and ((ai * x) + y) <= k.
+--> The value of u and v are gib=ven in the format of one based indexing.
+
+you need to print the array which stores the answers for each query.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+The first line contains the number of test cases t(1 ≤ t ≤ 10). The description of the test cases follows.
+The first line of each test case consists of 2 integers n(1 ≤ n ≤ 10^5) and q(1 ≤ q ≤ 10^5) — the length of the array and the number of queries.
+The second line of each test case consists of n integers ai(1 ≤ ai ≤ 10^5) — the array a.
+The next q lines of each test case consists of 5 integers u, v, x, y, k — the queries.
+--> 1 ≤ u ≤ v ≤ n
+--> 1 ≤ x ≤ 10^9
+--> 0 ≤ y ≤ 10^9
+--> 1 ≤ k ≤ 10^9
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+For each query, print the number of indices which satisfies the condition.

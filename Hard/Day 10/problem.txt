@@ -1,0 +1,24 @@
+Previously, there existed a boy named Joey. Joey decided one day to go for his money. He continued as a result.
+Joey kept walking till the light faded. A dragon was sleeping in this darkness. There were white stones all around the dragon.
+Joey is aware that certain of those stones should be decorated in a way that the dragon will lie inside of them according to his knowledge. Following this, the dragon will be captured. 
+Every stone has the potential to be either painted or unpainted.A convex polygon can be used to represent stones, while a set of points can form dragons.
+The objective at hand is to determine the number of ways to paint stones in order to capture the dragon.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+The first line of input contains two integers n and m (3 ≤ n ≤ 5000, 0 ≤ m ≤ 5000).
+Each of the next n lines contains two integers x[i] and y[i] — the coordinates of the stones.
+Each of the next m lines contain two integers u[i] and v[i] — the coordinates of the dragon.
+--> (-10^9 ≤ x[i], y[i], u[i], v[i] ≤ 10^9).
+It is guaranteed the coordinate of stones are given in either clockwise or counterclockwise order and no three points lie on the same line.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+Print the answer modulo 1e9 + 7.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time limit: 2 sec
+Memory limit: 256 MiB

@@ -1,0 +1,20 @@
+Problem Statment
+
+At h1 hours m1 minutes s1 seconds, the Olympiad began, and it concluded at h2 hours m2 minutes 82 seconds on the same calendar day. How long is Olympiad, in hours, minutes, and seconds?
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input
+
+The first line contains the starting time, the second line
+contains the finishing time in format hour min sec (0 ≤
+h1 ≤ h2 ≤ 23, 0 ≤ m1, M2, 81, 82 ≤ 59).
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output
+Duration of the Olympiad in format hour min sec.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Time limit - 1 sec 
+Memory limit - 128 megabytes

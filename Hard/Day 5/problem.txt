@@ -1,0 +1,16 @@
+Problem Statment
+
+N candies (N is even) and k identical tiny boxes belong to Alice. There can only be N/2 candies in each little box. Alice wants to know how many various ways he can divide the candy among the small boxes, taking into account simply the amount of candy that goes into each box. If the number of candies in each little box varies between two distributions, then those distributions are deemed different. Find possibly number of such distinct distributions.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Input
+Two integer N & K .Quantity of the candies & quantity of small box.(2<=N,K<=1000)
+
+Output 
+Print a number of such distinct distributions.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Time limit 1 second
+ Memory limit 128 MiB
+
+Time limit: 1sec
+Memory limit: 64 megabte

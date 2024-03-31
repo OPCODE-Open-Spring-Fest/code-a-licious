@@ -1,0 +1,17 @@
+Problem Statment
+
+Bob is going to use n lamps and k different colours of paint to make a garland to adorn a New Year's tree. But he has a regulation that says you can't put two lamps of the same colour next to each other. How many different ways can he arrange the garland?
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Input
+Contain two integer n,k - no. of lamps & no. of different paints (1<=k,n<=15)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Output
+Print the number of painting ways. If Bob can not paint a
+garland after the described requirements, to show out -1.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time limit 1 seconds
+Memory limit 64 megabytes

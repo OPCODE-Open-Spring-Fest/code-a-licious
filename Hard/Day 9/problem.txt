@@ -1,0 +1,19 @@
+You are given n cities with m roads between them. Your aim is to move from city 1 to n utilizing each road exactly once.
+Your need to print a possible way to achieve this?
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+The first line of inpuit contains two integers n(2 ≤ n ≤ 10^5) and m(1 ≤ m ≤ 200000): the number of cities and roads between them.
+The second line of consists of m integers - Each line has two integers a and b (1 ≤ a,b ≤ n): there is a road from city a to b.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+
+Output a sequence of m+1 integers representing the order in which you visit the cities.
+If there are multiple valid solutions, any one of them can be printed. If no solutions are feasible, output -1.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Time limit: 1 sec
+Memory limit: 512 MB

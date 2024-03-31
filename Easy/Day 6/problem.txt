@@ -1,0 +1,25 @@
+Problem Statment
+
+For her birthday, a brand-new Lego-like game was given to Riya. Unbounded Imaginations (UI) is a game that features a large number of uniform cubes with an area of 1 cm^2 on each side. Ul's unique quality is his ability to precisely fit two sides of two cubes together by glueing them together side by side with a specific kind of gluing. As her older brother, Ansh has made the decision to use Ul to create a challenge for Riya.
+Using these cubes, he builds a three-dimensional object, and he wants Riya to paint every uncoupled side. If a side is not connected to another cube, we refer to it as not coupled. Consider the following object as an example:
+The total of all the non-coupled sides in the example above is 16. The challenge is figuring out this figure, which indicates the region Riya needs to paint.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input
+
+The first line contains an integer t — the number of test cases.
+
+The initial number of cubes in each test scenario is n (1 ≤ n = 200). Numbers for cubes range from 1 to n.
+
+The next n lines explain how the objects were formed; each cube's connection details are provided in a single line. A cube number, I, appears at the beginning of each of these lines. A colon character ":" and a blank are followed by several integers (up to six) that represent the cubes connected to I. A single zero character "0" indicates the end of the set. Every test case's data will always realise a legitimate object in space. Keep in mind that cubes can build any complicated item, even several tiny, independent ones.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output
+
+For each test case pring on a seperate line the sum of not coupled sides for all cubes.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Time limit - 1 sec 
+Memory limit - 128 megabytes

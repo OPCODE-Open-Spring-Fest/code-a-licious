@@ -1,0 +1,21 @@
+Problem Statment
+
+One bank recently introduced a system which merges a company's several accounts into one account in an effort to improve financial transparency. With this approach, every operation combines two accounts into one. The bank charges a processing fee, which is expressed as f% of the total amount of money in the combined account. Additionally, prior to consolidation, the maximum processing fee limit for each individual account is G UAH.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Input
+In the first line 2 integers given : Number of accounts N and the fee percentage f.
+The second line contains N integers : processing fee each business's accounts.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Output
+Maximum amount,that can remain on the account.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Constraint
+2 ≤ N ≤ 100000
+0 ≤ f ≤ 20
+0 ≤ G ≤ 10000
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Time limit 0.1 seconds
+Memory limit 64 MiB
