@@ -1,0 +1,21 @@
+You have an undirected tree with n vertices, meaning it's a connected graph with exactly n−1 edges. 
+Your goal is to add the fewest possible edges in such a manner that the shortest distance from vertex 1 to any other vertex is no more than 2.
+It's important to adhere to the rule that no loops or duplicate edges are permitted.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+The first line of the input contains the single integer n (2 ≤ n ≤ 2⋅10^5) — the number of vertices in the tree.
+Then follow n - 1 lines that describe the edges. Each of them contains two integers ui and vi (1 ≤ ui, vi ≤ n) — indices of vertices connected by the i-th edge.
+
+It is guaranteed that the given graph is a tree and there are no loops or multiple edges among the given edges.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+Print a single integer — the minimum number of edges that need to be added in order to ensure that the length of the shortest path from vertex 1 to any other vertex does not exceed 2.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time limit 1 seconds
+Memory limit 128 MiB
