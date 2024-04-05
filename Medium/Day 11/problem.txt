@@ -1,0 +1,15 @@
+Given a permutation P1...Pn of the set {1, 2, ..., n}.
+You can perform the following operation any number of times (possibly zero):
+Choose two indices i, j (1 ≤ i < j ≤N), such that (j − i) ≥ k and |Pi − Pj| = 1. Then, swap the values of Pi and Pj. 
+Find the lexicographically smallest permutation that can be obtained by applying this operation to the given permutation.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+The first line of input contains two integers n and k (2 ≤ n ≤ 500000, 1 ≤ k ≤ n-1).
+The next line contains permutation of n numbers.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+Print the lexicographically smallest permutation that can be obtained.
