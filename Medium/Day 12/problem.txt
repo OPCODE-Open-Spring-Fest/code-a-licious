@@ -1,0 +1,36 @@
+Problem Statment
+
+ Bob to charge N jets before sending them to space. The [i]th car has an energy capacity A[i] Watt-hours.
+There are P power outlets. The [j]th outlet provides a power of B[j] Watt.
+If an outlet can charge at most one car and a car can be charged by at most one outlet, find the
+maximum total energy (in Watt-hours) stored in all jets after H hours.
+Note:
+• A power outlet cannot charge a different car even after completely charging a car.
+• Energy is the product of power and time. For instance, a car can store 1 Watt-hour of energy if it is charged at a power station with 1 Watt power for 1 hour.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input
+
+The first line of input will contain a single integer T, the number of test cases.
+The first line of each test case contains 3 space-separated integers N, P, and H, the number of cars, the number of power outlets, and the number of hours respectively.
+The second line of each test case contains N space-separated integers, the energy capacities (in Watt-hour) of the N cars.
+The third line of each test case contains P space-separated integers, the power (in Watt) of the P power outlets.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output
+
+For each test case, print the maximum total energy (in Watt-hours) stored in all cars after H hours.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------
+
+Constraints:
+
+1≤T≤10^5
+1≤N,P,H,A [i],B[i]≤10^5
+The sum of N over all test cases won't exceed 10^5.
+The sum of P over all test cases won't exceed 10^5.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------
+
+Time limit - 1 sec 
