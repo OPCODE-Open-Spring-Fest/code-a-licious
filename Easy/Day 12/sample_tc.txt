@@ -1,0 +1,17 @@
+Input
+CchocoLlaAteE
+
+Output
+hocoe
+
+Input
+abBAcC
+
+Output
+-1
+
+Inputs
+s 
+
+Output
+s 

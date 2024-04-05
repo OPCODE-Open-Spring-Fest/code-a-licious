@@ -1,0 +1,14 @@
+Input:
+N = 10
+Output: 
+-1
+
+Input:
+N = 112211
+Output: 
+1
+
+Input:
+N = -1771
+Output: 
+-1

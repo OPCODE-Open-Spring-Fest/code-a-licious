@@ -1,0 +1,25 @@
+Problem Statment
+You are given a string S of lower and upper case English letters. Your task is to return a good string.
+A good string is a string which doesn't have two adjacent characters S[i] and S[i+1] where S[i] is a lower-case letter and S[i + 1] is the same letter but in upper-case or vice-versa.
+To make the string good, you can choose two adjacent characters that make the string bad and remove them. You can keep doing this until the string becomes good.If no such string exist print -1.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input
+
+String S.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output
+Return good string if exist otherwise -1.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------
+
+Constraints:
+1 <= S.length <= 100
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------
+
+Time limit - 1 sec 

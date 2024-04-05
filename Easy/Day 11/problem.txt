@@ -1,0 +1,37 @@
+Problem Statment
+
+
+You are given an array A of size N. You want to transform this array into an array where all elements are equal. However, you can only perform the following operation:
+
+Select two indices i and j (i ≠ j) and set Ai = Aj.
+Find the minimum number of operations required to achieve this transformation.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input
+
+The first line contains an integer t — the number of test cases.
+The first line contains an integer N, indicating the size of the array.
+Subsequently, there is a line with N space-separated integers representing the elements of the array A.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output
+
+For each test case, output on a new line, the minimum number of operations required to make all elements of the array equal.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------
+
+Constraints:
+1 <= T <= 1000
+1 <= N <= 2*10^5
+1 <= A[i] <= N
+The sum of N over all test cases won't exceed 2*10^5.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------
+
+Time limit - 1 sec 

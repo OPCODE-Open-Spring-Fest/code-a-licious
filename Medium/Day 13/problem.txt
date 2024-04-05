@@ -1,0 +1,36 @@
+Problem Statment
+Alice is conducting experiments on N subatomic particles arranged in a row. These particles come in two types: protons (represented by 1) with a positive charge and electrons (represented by 0) with a negative charge.
+
+In Alice's experiment, the distance between adjacent particles depends on their charges. If two adjacent particles have opposite charges, they are separated by 1 unit. If they have the same charge, they are separated by 2 units.
+
+Alice will perform K updates, where in the i-th update, he will change the charge of the Q[i]-th particle. After each update, Alice wants to determine the distance between the first and last particles.
+
+Note: Each update permanently alters the charge of the specified particle for subsequent updates.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input
+
+The first line consists of an integer T, representing the number of test cases.
+Following that are T test cases, each described over three lines:
+The first line of each test case contains two integers N and K, indicating the number of particles and the number of updates, respectively.
+The second line contains a string S of length N, representing the initial charge on each particle.
+The third line contains K integers Q[1], Q[2],..., Q[k], denoting the positions of the particles whose charges will be changed.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output
+
+For each test case, output K lines, where the ith line contains the answer after the updates Q[1], ..., Q[i] have been made.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------
+
+Constraints:
+1≤ T≤5
+1 ≤ N, K ≤ 10^5
+S contains only 0 and 1 characters.
+1 ≤ Q[i] ≤ N
+The sum of K over all testcases is at most 2*10^5
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------
+
+Time limit - 1 sec 
