@@ -18,7 +18,7 @@ The next n lines explain how the objects were formed; each cube's connection det
 
 Output
 
-For each test case pring on a seperate line the sum of not coupled sides for all cubes.
+For each test case print on a seperate line the sum of not coupled sides for all cubes.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Time limit - 1 sec 

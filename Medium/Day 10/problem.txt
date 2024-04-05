@@ -1,0 +1,31 @@
+Problem Statment
+
+There is a boy whose name is Bob, who is very fond of chocolates, so he goes to the shop and buy N chocolates.He decides to make a triangle from those chocolates, but his method of making it is unusual, which is described as below  :
+He puts 1 chocolate in the 1st row.
+then puts 2 chocolates in the 2nd row.
+then puts 3 chocolates in the 3rd row.
+and so on .
+
+Bob is interested in forming a triangle with maximum possible height using at most N chocolates. Can you tell him the maximum possible height of the triangle?
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input
+The first line of input contains a single integer T denoting the number of test cases.
+
+The first and the only line of each test case contains an integer N denoting the number of chocolates bob has.
+
+All values are natural, do not exceed 1000.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output
+For each test case, output a single line containing an integer corresponding to the maximum possible height of the triangle that Bob can get.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Constraints
+1 ≤ T ≤ 100
+1 ≤ N ≤ 10^9
+
+
+Time limit - 1 sec 
