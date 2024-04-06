@@ -7,15 +7,20 @@ Can you help him, and find any sequence a1,a2,...,an, such that graph constructe
 Note: It is guaranteed that there are no multiple edges in the graph. It is guaranteed that there exists some solution for the given graph.
 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Input:
 The first line of input contain two integers n, m(1 ≤ n ≤ 500, 0 ≤ m ≤ (n*(n − 1))/2): number of vertices and edges in Joey's graph.
 Next m lines contain the description of edges: i-th line contain two integers ui,vi (1 ≤ ui, vi ≤ n ; ui ≠ vi), describing undirected edge connecting vertices ui and vi in the graph.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Output:
 Output n space-separated integers, a1,a2,...,an (0 ≤ ai ≤ 15).
 Printed numbers should satisfy the constraints: edge between vertices u and v present in the graph if and only if au ⊕ av = 2^k for some integer k ≥ 0.
 If there are multiple possible solutions, you can output any.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time limit: 5 sec
+memory limit: 256 megabytes
