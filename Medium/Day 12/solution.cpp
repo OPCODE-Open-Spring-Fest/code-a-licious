@@ -30,11 +30,6 @@ void solve()
     cout << cnt << endl;
 }
 
-
-    
-        
-
-
 signed main() 
 {
 	int t;
