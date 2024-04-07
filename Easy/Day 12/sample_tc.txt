@@ -2,7 +2,7 @@ Input
 CchocoLlaAteE
 
 Output
-hocoe
+hocot
 
 Input
 abBAcC
