@@ -1,0 +1,19 @@
+You're given an array a of size n, a 132 pattern is a subsequence of three integers a[i], a[j] and a[k],
+such that i < j < k and a[i] < a[k] < a[j]. You have to find if 132 pattern exists in the array or not.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+The first line of input contains an integer n(1 ≤ n ≤ 200000): the size of the array.
+The second line consists of n integers ai(-10^9 ≤ ai ≤ 10^9) — the array a.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+Print "YES" if it is possible to find the 132 pattern and also print the indices i, j and k in the next line.
+If there are multiple answers, print any.
+Else print "NO".
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time Limit: 1 sec
