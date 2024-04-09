@@ -1,0 +1,16 @@
+Your are given an array a of size n, you have to print the number of triplets chosen from the array that can make triangles if we take them as side lengths of a triangle.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+First line of input contains an integer n - the szie of the array.
+Second line of input contains n integers, the value of ai.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+Print the number of triplets that can be chosen.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time limit: 1 sec.
