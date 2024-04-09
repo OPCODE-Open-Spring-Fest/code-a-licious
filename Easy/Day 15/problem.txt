@@ -1,0 +1,20 @@
+You have a card with a 3 × 3 grid. The square at the i-th row from the top and the j-th column from the left contains the number a(i,j).
+You are given n numbers b1, b2, ... , bn and if the card contains those numbers then you will mark them.
+Determine whether you will have three marked numbers in a row, column, or diagonal.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+First three line of input contains three integers a(i,j) - value at i-th row and j-th column.
+The next line contains an integer value n.
+Then the next n line have the value bi.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+If you can find three marked numbers in a row, column, or diagonal then print "Yes", print "No" otheriwse.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time Limit: 2sec
+Memory Limit: 1024 MB
