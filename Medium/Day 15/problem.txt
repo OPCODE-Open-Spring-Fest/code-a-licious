@@ -1,0 +1,18 @@
+Find the price of a product before tax such that, when the consumption tax rate is 8% and 10%, the amount of consumption tax levied on it is x rupees and y rupees, respectively.
+Here, the price before tax must be a positive integer, and the amount of consumption tax is rounded down to the nearest integer.
+If multiple prices satisfy the condition, print the lowest such price, if no price satisfies the condition, print -1.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+First and only line of input contains two integers x and y.(1 <= x, y <=100).
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+If there is a price that satisfies the condition, print an integer representing the lowest such price, otherwise, print -1.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time Limit: 2 sec
+Memory Limit: 1024 MB
