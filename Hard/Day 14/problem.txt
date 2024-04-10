@@ -1,0 +1,25 @@
+Problem Statement
+
+Bob possesses an integer N. It is shown that 10^5 is the maximum value of N's odd divisor.
+Find two positive integers A and B such that A^2 + B^2 = N, or indicate that there isn't a pair like that.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+The first line of input will contain a single integer T - no. of test cases.
+Each test case consists of a single integer N.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+For each test case, output space-separated A and B such that A^2 + B^2 = N or - 1 if no such pair exists.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Constraints
+1 ≤ T ≤ 10^5
+1 ≤ N ≤ 10^15
+Largest odd divisor of N won't exceed 105.
+
+Time limit: 1 sec
