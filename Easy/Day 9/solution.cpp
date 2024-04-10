@@ -4,11 +4,11 @@
 using namespace std;
 
 int maxSubarraySum(int arr[], int n, int x) {
-    int sum = 0;
+    long long int sum = 0;
     for (int i = 0; i < x; i++) {
         sum += arr[i];
     }
-    int maxSum = sum;
+  long long  int maxSum = sum;
     for (int i = x; i < n; i++) {
         sum = sum + arr[i] - arr[i - x];
         maxSum = max(maxSum, sum);
@@ -30,4 +30,6 @@ int main() {
     }
     return 0;
 }
+
+
 
