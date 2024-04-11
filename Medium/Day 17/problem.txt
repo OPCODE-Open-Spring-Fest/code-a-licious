@@ -1,0 +1,21 @@
+You are given an integer array a of size n.
+You can perform the following operation on the array any number of times, possibly zero.
+Choose an integer i such that 1 ≤ i ≤ n. Replace ai with ai + 1.
+Your task is to make the sequence a contain at least one multiple of x, at least one multiple of y, and at least one multiple of z.
+Find the minimum number of operations required to achieve this.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+First line of input contains 4 integers n(1 <= n <= 2*10^5), x, y, z (1 <= x, y, z <= 10^6)- size of array, the value of x, y and z.
+Next line contains n integers a0, a1,..., an-1. (1 <= ai <= 10^18).
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+Print the minimum number of operations to achieve this.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time Limit: 2 sec
+Memory Limit: 1024 MB
