@@ -4,7 +4,7 @@ Your goal is to determine the minimum amount of money required to obtain exactly
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Input:
+Input: 
 The first and only line of input contains three integers x, y (1 <= x, y <= 100), n (1 <[= n <= 100]) - cost for 1 pen, cost for 3 pens, and total number of pens you require.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------

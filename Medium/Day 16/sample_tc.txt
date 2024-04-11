@@ -1,4 +1,4 @@
-Sample Input:
+Sample Input: 
 4
 3
 ABC ABC

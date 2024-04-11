@@ -4,7 +4,7 @@ Determine if it is possible to make s1 and s2 equal by performing the following 
 2-nd ：Choose a character C in s1 and replace it with B.
 3-rd ：Choose a substring AB in s1 and replace it with BA.
 
-Is it possible to make both string equal.
+Is it possible to make both string equal. 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
