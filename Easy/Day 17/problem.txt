@@ -1,0 +1,20 @@
+You are given a rectangle in the xy-plane. 
+Each edge of this rectangle is parallel to the x- or y-axis.
+Given the coordinates of three of the four vertices of this rectangle, (x1 ,y1), (x2 ,y2), and (x3 ,y3).
+Your task is to calculate the fourth vertex.
+NOTE: Area of the rectangle is not zero.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+Input contains three vertices - (x1 ,y1), (x2 ,y2), and (x3 ,y3).
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+Find the fourth coordinate.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time Limit: 2 sec
+Memory Limit: 1024 MB
