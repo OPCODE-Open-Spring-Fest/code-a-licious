@@ -1,0 +1,16 @@
+You are given a string s and it represents a valid date in the year 2019 in the yyyy/mm/dd format.
+You have to find out if the date given by s is before 30 APRIL 2019 or not.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+First and only line of input contains a string s - a valid date in the year 2019 in the yyyy/mm/dd format.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Print "Yes" if the date given is before 30 APRIL 2019,  "No" otherwise.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time Limit: 1 sec
+Memory Limit: 1024 MB
