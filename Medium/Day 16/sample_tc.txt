@@ -1,0 +1,29 @@
+Sample Input:
+4
+3
+ABC ABC
+2 
+AB BA
+2 
+BA AB
+3 
+CCB ABA
+
+Sample Output 1:
+Yes
+Yes
+No
+Yes
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Sample Input 2:
+3
+5 AAABB BBAAA
+5 ACACB BAACB
+5 ACACB BBACA
+
+Sample Output 2:
+Yes
+Yes
+No

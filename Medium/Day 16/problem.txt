@@ -1,0 +1,24 @@
+s2ou are given strings s1 and s2 of length n each, consisting of A, B, and C.
+Determine if it is possible to make s1 and s2 equal by performing the following three kinds of operations on s1 any number of times, possibly zero.
+1-st ：Choose a character C in s1 and replace it with A.
+2-nd ：Choose a character C in s1 and replace it with B.
+3-rd ：Choose a substring AB in s1 and replace it with BA.
+
+Is it possible to make both string equal.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+First line of input contains one integer t (1 <= t <= 200000) - number of test cases.
+Second line of input contains one integer n (1 <= n <= 200000) - size of the string s1 and s2.
+Third line contains two strings, s1 and s2.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+Print "Yes" if it is possible to make s1 and s2 equal, "No" otherwise.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time Limit: 2 Sec
+Memory Limit: 1024 MB

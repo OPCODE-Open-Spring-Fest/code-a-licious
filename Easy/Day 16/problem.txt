@@ -1,0 +1,18 @@
+Imagine a scenario where you're tasked with procuring a specific quantity of pens from a store.
+This store offers two purchasing options: one pen for x rupees or three pens for y rupees. 
+Your goal is to determine the minimum amount of money required to obtain exactly n pens. 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+The first and only line of input contains three integers x, y (1 <= x, y <= 100), n (1 <[= n <= 100]) - cost for 1 pen, cost for 3 pens, and total number of pens you require.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+Print a single integer - minimum cost to buy exactly n pens.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time Limit: 2 sec.
+Memory Limit: 1024 MB.
