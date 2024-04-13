@@ -1,0 +1,24 @@
+There are n boxes arranged in a row. Initially, the i-th box from the left contains ai candies.
+You can perform the following operation any number of times:
+Choose a box containing at least one candy, and eat one of the candies in the chosen box.
+
+Your goal is as follows:
+Any two neighboring boxes contain at most x candies in total.
+
+Find the minimum number of operations required to achieve the goal.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+First line of input contains two integers n(2 <= n <= 10^5) , x(0 <= x <= 10^9).
+Second line of input contains n integers ai (0 <= ai <= 10^9).
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+Print the minimum number of operations required to achieve the goal.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time Limit: 2 sec
+Memory Limit: 256 MB
