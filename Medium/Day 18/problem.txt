@@ -1,0 +1,19 @@
+You start at position 0 on a never-ending line at time 0.
+Each time period, you can either stay put or move a specific distance to the left or right.
+This distance depends on the current time. For example, if you're at position d at time i-1, at time i you can be at position d-i, d, or d+i.
+Your goal is to figure out the earliest moment when you reach to position x.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+The first and only line of input contains an integer x - Your destination point.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+Print the earliest possible time for you to reach the coordinate x.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time Limit: 2 sec
+Memory Limit: 256 MB
