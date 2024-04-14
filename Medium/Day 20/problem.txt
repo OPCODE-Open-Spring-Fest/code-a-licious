@@ -1,0 +1,28 @@
+Consider a grid with h rows and w columns of squares. Let (r,c) denote the square at the r-th row from the top and the c-th column from the left. 
+Each square is painted black or white.
+The grid is said to be good if and only if the following condition is satisfied:
+From (1,1), we can reach (h,w) by moving one square right or down repeatedly, while always being on a white square.
+Note that (1,1) and (h,w) must be white if the grid is good.
+
+Your task is to make the grid good by repeating the operation below. 
+
+Choose four integers r0, c0, r1, c1 (1 ≤ r0 ≤ r1 ≤ h, 1 ≤ c0 ≤ c1 ≤ w). 
+For each pair r,c (r0 ≤ r ≤ r1, c0 ≤ c ≤ c1), invert the color of (r, c) - that is, from white to black and vice versa.
+
+Find the minimum number of operations needed to complete the task. It can be proved that you can always complete the task in a finite number of operations.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+First line of input contains two integers h and w (2 <= h, w <= 100).
+The next h line contains w integers - value at grid (i, j).
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+Print the minimum number of operations needed.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time Limit: 2 sec
+Memory Limit: 1024 MB
