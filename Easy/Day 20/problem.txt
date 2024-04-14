@@ -1,0 +1,23 @@
+You are given n questions and you've to answer all questions.
+Initially, you have x points. Each time you answer a question, you gain 1 point if your answer is correct and loses 1 point if it is incorrect.
+However, there is an exception: when you have 0 points, you lose nothing for answering a question incorrectly.
+You will be given a string s representing whether your answers are correct.
+If the i-th character of s from the left is o, it means your answer for the 
+i-th question is correct; if that character is x, it means his answer for the i-th question is incorrect.
+How many points will you have in the end?
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+First line of input contains two integers n(1 <= n <= 2*10^5) and x(0 <= x <= 2*10^5) - size of string and initial points.
+Second line contains a string s.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+Print the final score.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time Limit: 2 sec
+Memory Limit: 1024 MB
