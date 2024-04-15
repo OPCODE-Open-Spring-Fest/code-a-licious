@@ -1,0 +1,19 @@
+Alice shuffled a set of cards, each containing a number from 1 to n, with four cards for each number.
+After removing one card, she handed you the remaining stack. The i-th card in the stack (where i ranges from 1 to 4n−1) has a number Ai written on it.
+Your task is to determine which number Alice took from the original set.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+First line of input contains an integer n (1 <= n <= 10^5).
+Second line of input conatains 4n-1 integers.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+Print the missing number.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time Limit: 2 sec
+Memory Limit: 1024 MB
