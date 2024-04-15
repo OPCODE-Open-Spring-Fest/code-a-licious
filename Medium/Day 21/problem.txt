@@ -1,0 +1,23 @@
+Your are given two array a and b, each of length n, consisting of non-negative integers.
+The i-th elements of a and b are ai and bi, respectively.
+A non-negative integer x is said to be good when the following condition is satisfied:
+If it is possible to permute b so that ai XOR bi = x holds for every integer i such that 1 ≤ i ≤ n, 
+where XOR  is the bitwise XOR.
+Print all good integers in ascending order.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Input:
+First line of input contains one integer n(1 <= n <= 2000) - size of the array.
+Second line of input contains n integers - array a.
+Third line of input contains n integers - array b.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+Print all the good integers in ascending order.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time Limit: 2 sec
+Memory Limit: 1024 MB
