@@ -1,0 +1,13 @@
+Input
+6 2 2
+
+Output
+7
+
+Input
+24 3 11
+
+
+Output
+498062
+
